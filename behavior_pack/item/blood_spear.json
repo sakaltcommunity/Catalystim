@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.41",
+  "minecraft:item": {
+    "description": {
+      "identifier": "catalystim:blood_spear",
+      "menu_category":{
+        "group":"itemGroup.name.sword",
+        "category":"equipment"
+      }
+    },
+
+    "components": {
+      "minecraft:max_stack_size":1,
+      "minecraft:hand_equipped":true,
+      "minecraft:enchantable":{"value":12,"slot":"all"},
+      "minecraft:icon":"blood_spear",
+      "minecraft:display_name":{
+        "value": "ブラッドスピア"
+      },
+       "minecraft:damage": 10,
+       "minecraft:durability": 1200
+    }
+  }
+}
