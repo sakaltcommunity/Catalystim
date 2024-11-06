@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "中二病リソースパック",
+    "name": "Catalystim Resources",
+    "uuid": "5fc045f0-9b00-11ef-d193-57ae305b9c3a",
+    "version": [1, 21, 41]
+  },
+  "modules": [
+    {
+      "description": "リソースパック用のモジュール",
+      "type": "resources",
+      "uuid": "5fc065f0-9b00-11ef-cb59-67bf405e7d1b",
+      "version": [1, 21, 41]
+    }
+  ]
+}
