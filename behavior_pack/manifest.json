@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "中二病みたいなアドオン？",
+    "name": "Catalystim",
+    "uuid": "5fbc0540-9b00-11ef-d087-27adf05e6d19",
+    "version": [1, 21, 41]
+  },
+  "modules": [
+    {
+      "description": "中二病みたいなアドオン？",
+      "type": "scripting",
+      "uuid": "5fc023f0-9b00-11ef-cf41-0b7e753c4598",
+      "version": [1, 21, 41]
+    }
+  ]
+}
