@@ -1,0 +1,49 @@
+{
+  "format_version": "1.21.41",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "catalystim:frozen_construct",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_rideable": false,
+      "is_tameable": false
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 250,
+        "max": 250
+      },
+      "minecraft:movement": {
+        "value": 0.42
+      },
+      "minecraft:damage": {
+        "damage": 5
+      },
+      "minecraft:attack": {
+        "damage": 5
+      },
+      "minecraft:behavior.attack": {
+        "target_distance": 5,
+        "attack_interval": 0.5
+      },
+      "minecraft:effect": {
+        "effect": "minecraft:strength",
+        "amplifier": 1,
+        "duration": 100,
+        "condition": "minecraft:health_less_than_percentage",
+        "value": 33
+      }
+    },
+    "minecraft:behavior": {
+      "minecraft:attack": {
+        "attack_interval": 0.5,
+        "damage": 5,
+        "target_distance": 5
+      },
+      "minecraft:move_to_target": {
+        "distance": 5,
+        "speed": 0.42
+      }
+    }
+  }
+}
